@@ -2,8 +2,6 @@
 node_modules/
 
 # Build output
-assets/
-modules/
 dist/
 
 # Environment secrets
