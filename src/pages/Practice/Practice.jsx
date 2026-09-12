@@ -33,8 +33,6 @@ export default function Practice({ seedId }) {
     [masteredVersion],
   )
 
-  const isMastered = masteredSet().has(target.id)
-
   const onFrame = useCallback((results) => {
     if (!results?.landmarks?.length) {
       zDetector.reset()
@@ -76,6 +74,10 @@ export default function Practice({ seedId }) {
   }, [target])
 
   if (!ready) return <p className="empty">Loading signs…</p>
+
+  if (!target) return <p className="empty">No signs available.</p>
+
+  const isMastered = masteredSet().has(target.id)
 
   return (
     <div className="page">
