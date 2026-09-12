@@ -3,11 +3,13 @@
 // Sends messages to AI and gets response
 // ============================================================
 
+import { SUPABASE_URL, SUPABASE_ANON_KEY } from './supabase.js'
+
 // URL for the AI service
-const AI_URL = import.meta.env.VITE_SUPABASE_URL + '/functions/v1'
+const AI_URL = SUPABASE_URL + '/functions/v1'
 
 // The anonymous key needed by Supabase to accept our request
-const ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || ''
+const ANON_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || SUPABASE_ANON_KEY || ''
 
 // ----------------------------------------------------------
 // Send messages to AI and get response
