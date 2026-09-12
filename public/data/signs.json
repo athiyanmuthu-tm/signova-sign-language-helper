@@ -1,0 +1,595 @@
+{
+  "alphabet": [
+    {
+      "id": "a",
+      "label": "A",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Make a fist — thumb rests against the side of the index finger.",
+      "tip": "Closed fist, thumb on the side.",
+      "extra": { "thumbBeside": true }
+    },
+    {
+      "id": "b",
+      "label": "B",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "straight", "straight"],
+      "instructions": "Hold all four fingers straight up together, thumb tucked across the palm.",
+      "tip": "Flat hand, fingers together pointing up.",
+      "extra": { "orientation": "up", "thumbAcross": true }
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curved", "curved", "curved", "curved", "curved"],
+      "instructions": "Curve all fingers and thumb into a C shape.",
+      "tip": "Like holding a small cup — round hand.",
+      "extra": { "fingerSpread": 0.0 }
+    },
+    {
+      "id": "d",
+      "label": "D",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Point your index finger straight up, touch thumb tip to the other fingers forming a circle.",
+      "tip": "Index up, thumb meets fingers in a small loop.",
+      "extra": { "orientation": "up", "thumbBeside": true }
+    },
+    {
+      "id": "e",
+      "label": "E",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Curl all four fingers down, thumb tucked under the fingertips.",
+      "tip": "Fingertips folded to thumb, fist-like.",
+      "extra": { "thumbUnder": true }
+    },
+    {
+      "id": "f",
+      "label": "F",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curved", "curved", "straight", "straight", "straight"],
+      "instructions": "Touch thumb tip to index fingertip, extend the other three fingers up.",
+      "tip": "Thumb-index circle, three fingers up.",
+      "extra": { "thumbTipTouch": true }
+    },
+    {
+      "id": "g",
+      "label": "G",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Point index finger sideways, thumb pointing in the same direction parallel to it.",
+      "tip": "Index and thumb pointing sideways together.",
+      "extra": { "orientation": "side" }
+    },
+    {
+      "id": "h",
+      "label": "H",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Extend index and middle fingers sideways, held tightly together.",
+      "tip": "Two fingers sideways, together.",
+      "extra": { "orientation": "side", "fingerSpread": 0.0 }
+    },
+    {
+      "id": "i",
+      "label": "I",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "straight"],
+      "instructions": "Extend only your pinky finger straight up.",
+      "tip": "Pinky up, all others curled.",
+      "extra": { "orientation": "up" }
+    },
+    {
+      "id": "j",
+      "label": "J",
+      "group": "alphabet",
+      "scoreable": true,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "straight"],
+      "instructions": "Sign I, then draw a J in the air — drop pinky straight down, then hook back up.",
+      "tip": "Movement-based — draw the J with your pinky.",
+      "extra": { "orientation": "up" }
+    },
+    {
+      "id": "k",
+      "label": "K",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "straight", "curled", "curled"],
+      "instructions": "Point index up and middle finger out, thumb between them.",
+      "tip": "Index up, middle out, thumb in the middle.",
+      "extra": { "thumbBeside": true, "fingerSpread": 0.3 }
+    },
+    {
+      "id": "l",
+      "label": "L",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Extend thumb and index finger in an L shape — both pointing outward.",
+      "tip": "Classic L — thumb and index out.",
+      "extra": { "orientation": "side", "thumbPerpendicular": true }
+    },
+    {
+      "id": "m",
+      "label": "M",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Tuck thumb under three fingers — index, middle, and ring drape over it.",
+      "tip": "Three fingers folded over thumb.",
+      "extra": { "thumbUnder": true }
+    },
+    {
+      "id": "n",
+      "label": "N",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Tuck thumb under two fingers — index and middle drape over it.",
+      "tip": "Two fingers folded over thumb.",
+      "extra": { "thumbUnder": true }
+    },
+    {
+      "id": "o",
+      "label": "O",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curved", "curved", "curved", "curved", "curved"],
+      "instructions": "Curve all fingers to touch the thumb tip — forming an O with the hand.",
+      "tip": "All fingertips meet thumb — perfect circle.",
+      "extra": { "thumbTipTouch": true }
+    },
+    {
+      "id": "p",
+      "label": "P",
+      "group": "alphabet",
+      "scoreable": false,
+      "fingerState": ["straight", "straight", "straight", "curled", "curled"],
+      "instructions": "K handshape but pointed downward.",
+      "tip": "K pointing down.",
+      "extra": { "orientation": "down", "thumbBeside": true }
+    },
+    {
+      "id": "q",
+      "label": "Q",
+      "group": "alphabet",
+      "scoreable": false,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "G handshape but pointed downward.",
+      "tip": "G pointing down.",
+      "extra": { "orientation": "down", "thumbBeside": true }
+    },
+    {
+      "id": "r",
+      "label": "R",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Cross your middle finger over your index finger.",
+      "tip": "Fingers crossed, like hoping for luck.",
+      "extra": { "crossedIndexMiddle": true }
+    },
+    {
+      "id": "s",
+      "label": "S",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Make a tight fist — thumb wrapped across the front of your fingers.",
+      "tip": "Tight fist, thumb in front.",
+      "extra": { "thumbAcross": true }
+    },
+    {
+      "id": "t",
+      "label": "T",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Make a fist, tuck thumb between your index and middle fingers.",
+      "tip": "Thumb pokes between index and middle.",
+      "extra": { "thumbUnder": true }
+    },
+    {
+      "id": "u",
+      "label": "U",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Extend index and middle fingers straight up, pressed together.",
+      "tip": "Two fingers up, pressed together.",
+      "extra": { "orientation": "up", "fingerSpread": 0.0 }
+    },
+    {
+      "id": "v",
+      "label": "V",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Extend index and middle fingers in a V — spread apart.",
+      "tip": "Peace sign — two fingers spread.",
+      "extra": { "orientation": "up", "fingerSpread": 0.3 }
+    },
+    {
+      "id": "w",
+      "label": "W",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "straight", "curled"],
+      "instructions": "Extend index, middle, and ring fingers, spread apart from each other.",
+      "tip": "Three fingers up, spread out.",
+      "extra": { "orientation": "up", "fingerSpread": 0.2 }
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["curled", "curved", "curled", "curled", "curled"],
+      "instructions": "Bend your index finger into a hook — tip pointing toward the palm.",
+      "tip": "Hooked index finger.",
+      "extra": { "hookedIndex": true }
+    },
+    {
+      "id": "y",
+      "label": "Y",
+      "group": "alphabet",
+      "scoreable": true,
+      "fingerState": ["straight", "curled", "curled", "curled", "straight"],
+      "instructions": "Extend thumb and pinky out to the sides, curl the middle three fingers.",
+      "tip": "Thumb and pinky out — hang-loose.",
+      "extra": { "orientation": "side", "thumbSide": true }
+    },
+    {
+      "id": "z",
+      "label": "Z",
+      "group": "alphabet",
+      "scoreable": true,
+      "motion": true,
+      "fingerState": ["curled", "straight", "curled", "curled", "curled"],
+      "instructions": "Trace a Z in the air with your index finger.",
+      "tip": "Movement-based — draw the Z.",
+      "extra": { "orientation": "side" }
+    }
+  ],
+  "numbers": [
+    {
+      "id": "n0",
+      "label": "0",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["curved", "curved", "curved", "curved", "curved"],
+      "instructions": "Curve all fingertips to touch the thumb — forming an O.",
+      "tip": "Round circle.",
+      "extra": { "thumbTipTouch": true }
+    },
+    {
+      "id": "n1",
+      "label": "1",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Extend only your index finger straight up.",
+      "tip": "One finger up.",
+      "extra": { "orientation": "up", "thumbBeside": true }
+    },
+    {
+      "id": "n2",
+      "label": "2",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Extend index and middle fingers up, spread apart like V.",
+      "tip": "Two fingers up, spread.",
+      "extra": { "orientation": "up", "fingerSpread": 0.3 }
+    },
+    {
+      "id": "n3",
+      "label": "3",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "straight", "curled"],
+      "instructions": "Extend index, middle, and ring fingers up, spread apart.",
+      "tip": "Three fingers up, spread.",
+      "extra": { "orientation": "up", "fingerSpread": 0.2 }
+    },
+    {
+      "id": "n4",
+      "label": "4",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["curled", "straight", "straight", "straight", "straight"],
+      "instructions": "Extend all four fingers up together, thumb across the palm.",
+      "tip": "Four fingers up, thumb hidden.",
+      "extra": { "orientation": "up", "fingerSpread": 0.0, "thumbAcross": true }
+    },
+    {
+      "id": "n5",
+      "label": "5",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "instructions": "Extend all four fingers up and spread apart, thumb out.",
+      "tip": "Open hand, all four fingers spread.",
+      "extra": { "orientation": "up", "fingerSpread": 0.3 }
+    },
+    {
+      "id": "n6",
+      "label": "6",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["straight", "curled", "curled", "curled", "straight"],
+      "instructions": "Touch thumb to pinky tip, extend the other three fingers.",
+      "tip": "Thumb touches pinky.",
+      "extra": { "thumbSide": true }
+    },
+    {
+      "id": "n7",
+      "label": "7",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "straight", "curled", "curled"],
+      "instructions": "Touch thumb to ring finger tip, extend index, middle, and pinky.",
+      "tip": "Thumb touches ring finger.",
+      "extra": { "thumbTouchesRing": true }
+    },
+    {
+      "id": "n8",
+      "label": "8",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "straight"],
+      "instructions": "Touch thumb to middle finger tip, extend index, ring, and pinky.",
+      "tip": "Thumb touches middle finger.",
+      "extra": { "thumbTouchesMiddle": true }
+    },
+    {
+      "id": "n9",
+      "label": "9",
+      "group": "numbers",
+      "scoreable": true,
+      "fingerState": ["straight", "curved", "curled", "curled", "curled"],
+      "instructions": "Touch thumb to index finger tip, extend middle, ring, and pinky.",
+      "tip": "OK sign.",
+      "extra": { "thumbTipTouch": true }
+    },
+    {
+      "id": "n10",
+      "label": "10",
+      "group": "numbers",
+      "scoreable": true,
+      "motion": true,
+      "fingerState": ["straight", "curled", "curled", "curled", "curled"],
+      "instructions": "Make a fist and shake it side to side.",
+      "tip": "Fist shaken side to side.",
+      "extra": { "orientation": "side" }
+    }
+  ],
+  "words": [
+    {
+      "id": "w_hello",
+      "label": "Hello",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "curled", "curled", "curled", "straight"],
+      "instructions": "Open hand, wave from side to side near your face.",
+      "tip": "Friendly wave gesture.",
+      "extra": { "orientation": "side", "thumbSide": true }
+    },
+    {
+      "id": "w_thankyou",
+      "label": "Thank you",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Touch your chin with flat fingers, then move hand forward.",
+      "tip": "Blow a kiss forward.",
+      "extra": { "thumbBeside": true }
+    },
+    {
+      "id": "w_please",
+      "label": "Please",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "curled", "curled", "curled", "straight"],
+      "instructions": "Rub your chest in a circle with an open hand.",
+      "tip": "Circular rub on chest.",
+      "extra": { "orientation": "side", "thumbSide": true }
+    },
+    {
+      "id": "w_yes",
+      "label": "Yes",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Make a fist and nod it up and down.",
+      "tip": "Fist bobs up and down.",
+      "extra": {}
+    },
+    {
+      "id": "w_no",
+      "label": "No",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Flick your index and middle fingers down from extended.",
+      "tip": "Snap two fingers down.",
+      "extra": { "crossedIndexMiddle": true }
+    },
+    {
+      "id": "w_sorry",
+      "label": "Sorry",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Rub your chest in a circle with a closed fist.",
+      "tip": "Fist circles on chest.",
+      "extra": {}
+    },
+    {
+      "id": "w_water",
+      "label": "Water",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "straight", "curled", "curled", "curled"],
+      "instructions": "Tap your index finger on your chin repeatedly.",
+      "tip": "Point and tap chin.",
+      "extra": { "orientation": "side" }
+    },
+    {
+      "id": "w_food",
+      "label": "Food",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Bring bunched fingers to your mouth repeatedly.",
+      "tip": "Fingers to mouth, like eating.",
+      "extra": {}
+    },
+    {
+      "id": "w_help",
+      "label": "Help",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Place a fist on a flat palm, lift both up.",
+      "tip": "Fist on palm, raise together.",
+      "extra": { "orientation": "side", "thumbBeside": true }
+    },
+    {
+      "id": "w_friend",
+      "label": "Friend",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "straight", "straight", "curled", "curled"],
+      "instructions": "Interlock index fingers, twist them.",
+      "tip": "Hook and twist two index fingers.",
+      "extra": { "crossedIndexMiddle": true }
+    },
+    {
+      "id": "w_love",
+      "label": "Love",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Cross fists over your chest.",
+      "tip": "Crossed fists on chest.",
+      "extra": {}
+    },
+    {
+      "id": "w_good",
+      "label": "Good",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Touch chin with flat hand, move forward into L shape.",
+      "tip": "Hand from chin forward.",
+      "extra": { "orientation": "side", "thumbBeside": true }
+    },
+    {
+      "id": "w_bad",
+      "label": "Bad",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Touch chin with flat hand, flip palm down.",
+      "tip": "Hand from chin, flip down.",
+      "extra": { "orientation": "down", "thumbBeside": true }
+    },
+    {
+      "id": "w_morning",
+      "label": "Morning",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "curled", "curled", "curled", "straight"],
+      "instructions": "Open arms wide, sun rising gesture.",
+      "tip": "Arms open wide.",
+      "extra": { "orientation": "side", "thumbSide": true }
+    },
+    {
+      "id": "w_night",
+      "label": "Night",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": [
+        "straight",
+        "straight",
+        "straight",
+        "straight",
+        "straight"
+      ],
+      "instructions": "Bring hands together near face, close fingers.",
+      "tip": "Hands come together, closing.",
+      "extra": { "orientation": "up", "fingerSpread": 0.0 }
+    },
+    {
+      "id": "w_name",
+      "label": "Name",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["straight", "straight", "curled", "curled", "curled"],
+      "instructions": "Tap middle and index fingers of both hands together, crossed.",
+      "tip": "Two fingers tap in X.",
+      "extra": { "orientation": "side", "thumbSide": true }
+    },
+    {
+      "id": "w_deaf",
+      "label": "Deaf",
+      "group": "words",
+      "scoreable": false,
+      "motion": true,
+      "fingerState": ["curled", "curled", "curled", "curled", "curled"],
+      "instructions": "Touch ear to mouth, then ear to chin.",
+      "tip": "Point to ear then mouth.",
+      "extra": {}
+    }
+  ],
+  "groupMeta": {
+    "alphabet": {
+      "title": "Alphabet",
+      "desc": "The 26 letters of the manual alphabet"
+    },
+    "numbers": {
+      "title": "Numbers",
+      "desc": "Numbers 0–9 using finger counting"
+    },
+    "words": {
+      "title": "Everyday Words",
+      "desc": "Common words for daily conversation"
+    }
+  },
+  "fingerNames": ["thumb", "index", "middle", "ring", "pinky"]
+}
